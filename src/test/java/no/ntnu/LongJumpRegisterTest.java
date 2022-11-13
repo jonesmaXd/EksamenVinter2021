@@ -66,6 +66,6 @@ public class LongJumpRegisterTest {
         longJumpRegister.addLongJump(longJump2);
         longJumpRegister.addLongJump(longJump3);
 
-        assertEquals(longJumpRegister.getLongestJump().getJumpLength(), 0);
+        assertEquals(longJumpRegister.getLongestJump().getJumpLength(), 6.9);
     }
 }
