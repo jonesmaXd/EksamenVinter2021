@@ -19,7 +19,7 @@ public class LongJumpRegisterTest {
         LongJump longJump = new LongJump(1, "Jons", 1.3, true, LocalTime.parse("06:30"));
         LongJumpRegister longJumpRegister = new LongJumpRegister();
         longJumpRegister.addLongJump(longJump);
-        assertEquals(longJumpRegister.getSize(), 3);
+        assertEquals(longJumpRegister.getSize(), 1);
     }
 
     /**
