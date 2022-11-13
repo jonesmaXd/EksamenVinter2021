@@ -276,7 +276,7 @@ public class LongJumpUI {
                 "Startnumber: " + longJump.getStartNumber() + "\n" +
                 "Athelete name: " + longJump.getName() + "\n" +
                 "Jump length: " + longJump.getJumpLength() + "\n" +
-                "Is the jump valid: " + longJump.isValidJump() + "\n" +
+                "Is the jump valid: " + (longJump.isValidJump() ? "ja" : "nei") + "\n" +
                 "The time the jump was performed " + longJump.getTimeJumped() + "\n" +
                 "";
 
