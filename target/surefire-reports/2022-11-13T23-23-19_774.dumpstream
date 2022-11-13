@@ -1,4 +1,0 @@
-# Created at 2022-11-13T23:23:22.483
-Boot Manifest-JAR contains absolute paths in classpath 'D:\NTNU\3. semester\Java programming\EksamenVinter2021\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-
