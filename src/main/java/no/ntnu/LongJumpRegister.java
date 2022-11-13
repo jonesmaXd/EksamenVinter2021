@@ -1,7 +1,6 @@
-import java.lang.reflect.Array;
+package no.ntnu;
+
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 
 /**
@@ -64,8 +63,8 @@ public class LongJumpRegister {
     //Attempted to use the Collectons.max method to find the longest jump,
 
     //but it did not work and I was unable to figure out why so I moved on to a different solution.
-/*    public LongJump getLongestJump() {
-        LongJump max = Collections.max(jumpRegister);
+/*    public no.ntnu.LongJump getLongestJump() {
+        no.ntnu.LongJump max = Collections.max(jumpRegister);
         System.out.println(max.getJumpLength());
     }*/
 

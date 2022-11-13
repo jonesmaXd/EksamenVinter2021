@@ -1,3 +1,5 @@
+package no.ntnu;
+
 import java.time.LocalTime;
 
 /**

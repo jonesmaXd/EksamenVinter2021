@@ -1,3 +1,4 @@
+package no.ntnu;
 
 import java.time.LocalTime;
 import java.util.Iterator;
@@ -38,7 +39,7 @@ public class LongJumpUI {
     private static final int EXIT = 6;
 
     /**
-     * Creates an instance of the LongJumpUI User interface.
+     * Creates an instance of the no.ntnu.LongJumpUI User interface.
      */
     public LongJumpUI() {
         this.jumpRegister = new LongJumpRegister();
